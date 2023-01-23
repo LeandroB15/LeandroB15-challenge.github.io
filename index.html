@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width">
+        <title>CHALLENGE-1</title>
+        <link rel="stylesheet" href="scripts/reset.css">
+        <link rel="stylesheet" href="scripts/style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+            
+            <video alt="logo de alura" class="logo" autoplay muted >
+                <source src="imagenes/Negative-mask-effect-_remix_2_.mp4" type="video/mp4" >
+            </video> 
+        
+        </header>
+
+        <main>
+            <div class="gif">
+                <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/nocovwne.json" trigger="hover" style="width:100px;height:100px"></lord-icon>
+            </div>
+            
+            <section>
+
+                <textarea class="text-area" rows="9.5" cols="40" required autofocus placeholder="Ingrese el texto aqui"></textarea>
+
+                <div>
+                    <h6 class="informacion">·Solo letras minusculas y sin acentos·</h6>
+                </div>
+
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section>
+                <textarea  cols="40" rows="18" class="mensaje" placeholder="Su mensaje encriptado aparecera aqui"></textarea>
+                <div>
+                    <button class="copy-btn">Copiar</button>
+                </div>
+            </section>
+                
+        </main>
+
+    
+    </body>
+
+    <script src="./scripts/script.js"></script>
+</html>
